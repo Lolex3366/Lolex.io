@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: antiquewhite;
+    }
+
+    p{
+      color: gray;
+    }
+
+
+    h3{
+      color: gray;
+    }
+
+    .content{
+      width: 600px;
+      height: 400px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      border-radius: 15px;
+    
+
+      
+    }
+
+    .img{
+      width: 300px;
+      height: 400px;
+
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      
+      
+    }
+
+    .text{
+      width: 300px;
+      height: 400px;
+      border-radius: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+    
+ 
+    }
+
+    .money{
+      text-decoration: line-through;
+      color: gray;
+    
+    }
+
+    .money1{
+      color: rgb(22, 126, 22);
+    }
+
+    button{
+      width: 200px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: rgb(15, 80, 15);
+      color: white;
+      border: none;
+    }
+
+    button:hover{
+      background-color: rgb(22, 126, 22);
+    }
+
+    .icon{
+      padding-right: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+    
+  
+  
+}
+
+
+    
+
+
+
+   
+  </style>
+<!-- Content -->
+<section>
+
+  <div class="content">
+    <div class="img"> <img class="img" src="/images/image-product-desktop.jpg" alt=""></div>
+    <div class="text"> <h3> PERFUME </h3> <H1>Gabrielle Essence Eau De Parfum</H1> <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-creator for the House of CHANEL.</p> <h1 class="money1"> $149,99</h1> <h4 class="money">$169.99</h4> <button> <img class="icon" src="/images/icon-cart.svg" alt=""> Add to Cart</button></div>
+  </div>
+
+</section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
